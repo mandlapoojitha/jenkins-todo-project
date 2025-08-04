@@ -1,4 +1,4 @@
-function addTask() {
+function() {
   const taskInput = document.getElementById("taskInput");
   const taskText = taskInput.value.trim();
   if (taskText === "") return;
